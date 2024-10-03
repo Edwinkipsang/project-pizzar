@@ -1,0 +1,64 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+
+.about-main{
+    @include flex(center, center);
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-right: 20%;
+    font-family: "kanit",sans-serif
+}
+
+.about-us{
+    //  @include flex(space-between, center);
+    background-color: $light-grey;
+    // height:90vh
+}
+.services{
+    @include flex(space-between, center);
+    gap:30px
+}
+.quality{
+    @include flex(center, center);
+background-color: $primary-color;
+gap:30px;
+margin-top:15%;
+margin-left: 6%;
+padding-top:30px;
+padding-bottom:30px;
+background-color: #fff;
+
+
+}
+.fresh{
+    @include flex(center, center);
+    background-color: $primary-color;
+    gap:30px;
+    margin-top: 15%;
+    margin-left: 8px; padding-top:30px;
+    padding-bottom:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color: #fff;
+}
+.fast{
+    @include flex(center, center);
+    background-color: $primary-color;
+    gap:30px;
+    margin-top:15%;
+    margin-left: 6%;
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color: #fff;
+}
+.why{
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+.we{
+    margin-top:5%;
+    font-size: 50px;
+}
+.try{
+    margin-top:5%;
+} 
