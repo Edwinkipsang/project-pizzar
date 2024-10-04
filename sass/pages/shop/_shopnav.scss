@@ -27,7 +27,7 @@ nav {
     .nav-right {
       @include flex(space-between, center);
       .fa-bars {
-        display:none
+         display:none
       }
     }
   }
@@ -40,8 +40,8 @@ nav {
   }
   .nav-right {
     gap: 10px;
-    .fa-bars {
-      display: inline-block;
-    }
+    // .fa-bars {
+    //   display: inline-block;
+    // }
   }
 }

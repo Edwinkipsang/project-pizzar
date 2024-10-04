@@ -572,9 +572,6 @@ nav .nav .nav-right .fa-bars {
   .nav-right {
     gap: 10px;
   }
-  .nav-right .fa-bars {
-    display: inline-block;
-  }
 }
 .ul-section {
   display: flex;
