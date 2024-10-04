@@ -29,20 +29,20 @@
 }
 .email{
     background-color: $light-grey;
-    font-family: "kanit",sans-serif
+    font-family: "kanit",sans-serif;
+    padding: 20px;
+    margin-top: 30px;
 }
 #reach{
     color:$grey
 }
-#i{
-    background-color: $light-grey;
-    padding-left: 30%;
-    border-radius: 50%;
 
-}
 #c{
     margin-left: 40%;
 }
 .fa-arrow-right{
     color: $black;
 }
+ @media screen and (max-width:600px) {
+    
+ }

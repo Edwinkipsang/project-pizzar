@@ -99,6 +99,10 @@ border:8px solid $black
 }
 .hero-pizza{
     @include flex ( center,center,column);
-    
 
+
+}
+//    media queries
+@media screen and (max-width: 600px) {
+  .hero-pizza{ display: none;}
 }

@@ -4,11 +4,13 @@ nav {
   background-color: $light-grey;
   
   .nav {
-    @include flex(space-between, center);
+    @include flex(center, center);
+    gap:80%;
 
     .nav-center {
       ul {
-        @include flex(space-between, center);
+        @include flex(center, center);
+        gap:30%;
 
         li {
           a {
@@ -26,7 +28,7 @@ nav {
     .nav-right {
       @include flex(space-between, center);
       .fa-bars {
-        //display:none
+        // display:none
       }
     }
   }
