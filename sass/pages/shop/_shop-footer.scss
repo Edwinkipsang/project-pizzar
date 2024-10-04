@@ -1,0 +1,52 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+
+.footer{
+    @include flex(center, center);
+    background-color: $black;
+    font-family: "kanit",sans-serif;
+    gap:20%;
+    margin-top: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.stay{
+    color:#fff;
+    padding-bottom: 50px;
+    padding-top: 60px;
+}
+.home{
+    color:$primary-color
+}
+.image-tools{
+    // @include flex(center, center);
+    border:7px solid $black;
+    gap:30%;
+    background-color: $black;
+    border-radius: 50%
+}
+#tool{
+    // background-color: $black;
+    @include flex(center, center);
+    gap:10px;
+}
+.btn-subscribe{
+    color: #fff;
+    background-color: $primary-color;
+    margin-top:-20px;
+    margin-left:-30px
+}
+.y{
+    padding-top:30px;
+    color:#fff
+}
+.l{
+    color:#fff;
+    font-size:30px;
+}
+.to{
+    margin-bottom:30px;
+    color:#fff;
+    font-size: 32px;
+    font-weight: 1000;
+}
