@@ -32,6 +32,7 @@ nav .nav .nav-right {
   flex-direction: row;
   flex-wrap: nowrap;
 }
+
 @media screen and (max-width: 600px) {
   .nav-center {
     display: none;
@@ -336,10 +337,12 @@ ul li:hover {
   margin-bottom: 30px;
   padding-right: 20%;
   font-family: "kanit", sans-serif;
+  gap: 20px;
 }
 
 .about-us {
   background-color: #F4F7FB;
+  padding-bottom: 3em;
 }
 
 .services {
@@ -349,6 +352,7 @@ ul li:hover {
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 30px;
+  margin-bottom: 3%;
 }
 
 .quality {
@@ -412,6 +416,16 @@ ul li:hover {
   margin-top: 5%;
 }
 
+@media screen and (max-width: 600px) {
+  .about-image {
+    width: 100px;
+  }
+  .about-main-section {
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+  }
+}
 .need {
   color: orange;
   margin-bottom: 30px;

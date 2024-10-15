@@ -6,17 +6,20 @@
     margin-top: 50px;
     margin-bottom: 30px;
     padding-right: 20%;
-    font-family: "kanit",sans-serif
+    font-family: "kanit",sans-serif;
+    gap:20px
 }
 
 .about-us{
     //  @include flex(space-between, center);
     background-color: $light-grey;
-    // height:90vh
+    // height:90vh;
+    padding-bottom: 3em
 }
 .services{
     @include flex(space-between, center);
-    gap:30px
+    gap:30px;
+    margin-bottom: 3%
 }
 .quality{
     @include flex(center, center);
@@ -62,3 +65,13 @@ background-color: #fff;
 .try{
     margin-top:5%;
 } 
+@media screen and (max-width:600px){
+    .about-image{
+        width:100px;
+    }
+    .about-main-section{
+        margin-left: 10px;
+        margin-right: 10px;
+        flex-direction: column;
+    }
+}
