@@ -105,4 +105,16 @@ border:8px solid $black
 //    media queries
 @media screen and (max-width: 600px) {
   .hero-pizza{ display: none;}
+  .tools-section{
+    flex-direction: column;
+    align-items: center
+    ;
+    justify-content: center;
+    align-content: center;
+    display:none
+  }
+  .h1{
+    font-size: 30px;
+  }
+
 }

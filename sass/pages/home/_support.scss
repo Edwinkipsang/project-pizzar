@@ -30,7 +30,7 @@
 .email{
     background-color: $light-grey;
     font-family: "kanit",sans-serif;
-    padding: 20px;
+    padding: 20px 30px;
     margin-top: 30px;
 }
 #reach{
@@ -44,5 +44,7 @@
     color: $black;
 }
  @media screen and (max-width:600px) {
-    
+    .about-support{
+        flex-direction: column;
+    }
  }

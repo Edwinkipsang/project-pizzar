@@ -52,5 +52,50 @@
 }
 
 @media screen and (max-width:600px) {
-    
+    .about-footer{width:120%;
+        // display:none;
+        .footer{
+            // flex-direction: column;
+            // #links.a{
+            //     display: none;
+            // }
+        div{
+            h1{
+                font-size: 20px;
+            }
+            img{
+                width:70px
+            }
+            
+        }
+
+        div{
+            img{
+                width:40px
+            }
+        }
+
+            div{
+                h3{
+                    font-size: 16px;
+                    padding-right: 2em;
+                    margin-left: -150px;
+                }
+                #input{
+                    margin-left: -150px;
+                }
+            }
+
+            div{
+                ul{
+                    li{
+                        display: none;
+                    }
+                }
+                h2{display: none;
+
+                }
+            }
+        }
+    }
 }
